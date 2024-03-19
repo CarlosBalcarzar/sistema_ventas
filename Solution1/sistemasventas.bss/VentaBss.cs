@@ -1,4 +1,5 @@
 ﻿using sistemasventas.dal;
+using sistemasventas.modelos;
 using System;
 using System.Collections.Generic;
 using System.Data;

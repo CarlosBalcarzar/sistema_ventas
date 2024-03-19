@@ -13,8 +13,4 @@
     <ProjectReference Include="..\sistemasventas.modelos\sistemasventas.modelos.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DetalleIngVista\" />
-  </ItemGroup>
-
 </Project>

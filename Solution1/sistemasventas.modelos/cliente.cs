@@ -6,5 +6,6 @@
         public int IdPersona { get; set; }
         public string TipoCliente { get; set; }
         public string CodigoClie { get; set;}
+        public string Estado { get; set; }
     }
 }

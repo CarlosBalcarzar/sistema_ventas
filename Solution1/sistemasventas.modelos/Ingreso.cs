@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace sistemasventas.modelos
 {
-    internal class Ingreso
+    public class Ingreso
     {
         public int IdIngreso {  get; set; }
         public int IdProveedor { get; set; }
-        public string FechaIngreso { get; set; }
+        public DateTime FechaIngreso { get; set; }
         public string Total {  get; set; }
         public string Estado {  get; set; } 
     }

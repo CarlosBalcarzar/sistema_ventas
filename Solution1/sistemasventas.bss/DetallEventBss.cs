@@ -1,4 +1,5 @@
 ﻿using sistemasventas.dal;
+using sistemasventas.modelos;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -14,6 +15,10 @@ namespace sistemasventas.bss
         public DataTable ListaDetallEventBss()
         {
             return dal.ListarDetalleVentDal();
+        }
+        public void InsertarDetalleVentBss(DetalleVent detalleVent)
+        {
+            dal.InsertarDetalleVentDal(detalleVent);
         }
     }
 }

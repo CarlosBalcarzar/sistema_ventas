@@ -1,6 +1,6 @@
-﻿namespace SistemaVentas.vista.UsuarioVista
+﻿namespace SistemaVentas.vista.IngresoVista
 {
-    partial class UsuarioListarVista
+    partial class IngresoListarVista
     {
         /// <summary>
         /// Required designer variable.
@@ -45,15 +45,15 @@
             dataGridView1.Size = new Size(776, 426);
             dataGridView1.TabIndex = 0;
             // 
-            // UsuarioListarVista
+            // IngresoListarVista
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(dataGridView1);
-            Name = "UsuarioListarVista";
-            Text = "UsuarioListarVista";
-            Load += UsuarioListarVista_Load;
+            Name = "IngresoListarVista";
+            Text = "IngresoListarVista";
+            Load += IngresoListarVista_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }

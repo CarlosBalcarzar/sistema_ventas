@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using sistemasventas.modelos;
+using System.Data;
 
 namespace sistemasventas.dal
 {
@@ -6,7 +7,7 @@ namespace sistemasventas.dal
     {
         public DataTable ListarVentaDal()
         {
-            string consulta = "select * from venta";
+            string consulta = "select * from Venta";
             DataTable lista = conexion.EjecutarDataTabla(consulta, "tabla");
             return lista;
         }
